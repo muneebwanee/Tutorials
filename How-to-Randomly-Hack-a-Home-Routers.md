@@ -25,3 +25,6 @@ XXX.XXX.30.0-XXX.XXX.30.255
 
 #### Default username and passwords are not same for every routers.
 
+### Thank you all for your attention!
+
+### * This Article is written by : muneebwanee (https://muneb.rf.gd)
