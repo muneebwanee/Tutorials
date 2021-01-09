@@ -220,4 +220,4 @@ Well, at the end of the list - USB-dongle nRF52840. He has a lot of opportunitie
 
 The admin of the Hackfreaks official channel was with you.
 
-This Article is written by muneebwanee (muneb.rf.gd)
+This Article is written by muneebwanee (https://muneb.rf.gd)
