@@ -1,4 +1,4 @@
-## How to Randomly Hack a Home Routers
+## How to Randomly Hack a Home Router
 
 ### Requirements:
 
