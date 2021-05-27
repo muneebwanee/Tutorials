@@ -1,3 +1,5 @@
+#How To Install Kali Linux as a Portable Live USB for Pen-Testing & Hacking on Any Computer
+
 Kali Linux is the go-to Linux distribution for penetration testing and ethical hacking. Still, it's not recommended for day-to-day use, such as responding to emails, playing games, or checking Facebook. That's why it's better to run your Kali Linux system from a bootable USB drive.
 
 The hacker-friendly Debian-based distro did receive a major update by Offensive Security in late-2019 that changed the default desktop environment from the heavyweight Gnome to a more lightweight Xfce, making Kali more snappy and responsive overall. But we still can't recommend it as your daily driver unless you hack 24 hours a day, 7 days a week.
