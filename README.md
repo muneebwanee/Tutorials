@@ -5,3 +5,5 @@
 ## #2. How to Randomly Hack a Home Router - https://github.com/muneebwanee/Tutorials/blob/main/How-to-Randomly-Hack-a-Home-Routers.md
 
 ## #3. Hacking Devices - https://github.com/muneebwanee/Tutorials/blob/main/HackingDevices.md
+
+## #4. How To Install Kali Linux as a Portable Live USB for Pen-Testing & Hacking on Any Computer - https://github.com/muneebwanee/Tutorials/blob/main/How-To-Install-Kali-Linux%20-as-a-Portable-Live-USB-for-Pen-Testing-%26-Hacking-on-Any-Computer.md
