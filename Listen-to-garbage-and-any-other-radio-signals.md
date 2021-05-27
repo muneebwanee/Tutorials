@@ -125,4 +125,4 @@ In my opinion, the best, inexpensive and effective option. You can also HackRF, 
 
 ### Thank you all for your attention!
 
-### * This Article is written by : muneebwanee (https://muneb.rf.gd)
+### * This Article was written by : muneebwanee (https://muneb.rf.gd)
