@@ -23,6 +23,9 @@ While there are many different types of Kali Linux images, the one we want for a
 
 Visit kali.org/downloads and download the appropriate Live image. We'll be using the 64-Bit for ARM64 since we're using an M1 Mac. No matter which one you choose, note that you will only be able to use the Xfce desktop environment, and you won't be able to specify additional (meta)packages to install.
 
+<p align="center">
+<a href="https://1.bp.blogspot.com/-l2FZhC0MUR4/YK8MndZaj8I/AAAAAAAAA5c/wgtCr_g0f0AfnOsyw3Iyy2KvoqMjoyb7QCLcBGAsYHQ/s1280/1.jpg"></a>
+</p>
 
 ### Step 2
 
@@ -33,6 +36,9 @@ On Linux and macOS computers, you could use the dd command to copy over the Kali
 
 Head to balena.io/etcher and his the "Download" button, which should detect which system you're on ad give you the right version. If not, hit the drop-down button next to it to choose your OS. Once downloaded, install it like you would any other app. For example, on macOS, open the DMG, drag balenaEtcher over to your Applications folder, then eject the DMG and delete it.
 
+<p align="center">
+<a href="https://1.bp.blogspot.com/-PUN-13sFl_0/YK8Ms4rkNlI/AAAAAAAAA5g/djLupFXMKi4o7rDH30xk1G-qXPGq30YuwCLcBGAsYHQ/s1280/2.jpg"></a>
+</p>
 
 ### Step 3
 
@@ -40,15 +46,27 @@ Head to balena.io/etcher and his the "Download" button, which should detect whic
 
 Open Etcher, then click on "Select Image." You may see options for "Flash from file" and "Flash from URL" instead; choose "Flash from file" if you see that.
 
+<p align="center">
+<a href="https://1.bp.blogspot.com/-Pg2W6ITMtFE/YK8Mx0ZFGAI/AAAAAAAAA5k/Uv8O6eqOfUIXkhRZD0IyFuiP70UPV0sCgCLcBGAsYHQ/s1280/3.jpg"></a>
+</p>
 
 Navigate to the Kali image you downloaded in Step 1, and select it. Then, you need to click on "Select Target" to choose your USB flash drive. Double- and triple-check that you're selecting the right drive by looking at the drive name and space available.
 
+<p align="center">
+<a href="https://1.bp.blogspot.com/-5EO9Z7ujJtk/YK8M3eoBZDI/AAAAAAAAA5o/3q9WdZjN_7E_-ES1kPDvC_J__HpwB2-jQCLcBGAsYHQ/s1280/4.jpg"></a>
+</p>
 
 Now all that's left to do is click on "Flash!" This will reformat your flash drive so that everything will be erased and overwritten with the Kali Live image.
 
+<p align="center">
+<a href="https://1.bp.blogspot.com/-jVhBuhwRP50/YK8M7zjzsVI/AAAAAAAAA5s/rp9rwfYvot4CfO-fQhigqLOX1NVTQ8W4ACLcBGAsYHQ/s1280/5.jpg"></a>
+</p>
 
 You may be asked to input your admin password to let Etcher do its magic, so go ahead and do that if it happens. Then, Etcher will show a progress bar indicating how much time is left for flashing the content over. You'll see a "Flash Complete" message when it's done.
 
+<p align="center">
+<a href="https://1.bp.blogspot.com/-L3X36hE8ZlU/YK8NBNLikDI/AAAAAAAAA50/-bT_G20vJqQBDwLzafmOyKNJxSrUEDRoQCLcBGAsYHQ/s1280/6.jpg"></a>
+</p>
 
 ### Step 4
 
