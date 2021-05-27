@@ -166,7 +166,7 @@ On new versions of Kali, you're a non-root user by default, but you can issue ro
 * `~$ sudo su`
 If you're asked for a password, use kali. However, Kali Live might not attach a password to the root user, so you'll have to create one if you don't want other people to get in and mess with your system. If it does have one, you can change it to something better. Use passwd root with root privileges to do that. Enter your chosen password, then verify it.
 
-~# passwd root New password: Retype new password: passwd: password updated successfully
+* `~# passwd root New password: Retype new password: passwd: password updated successfully`
 
 #### Explore Your New Kali Live System
 
