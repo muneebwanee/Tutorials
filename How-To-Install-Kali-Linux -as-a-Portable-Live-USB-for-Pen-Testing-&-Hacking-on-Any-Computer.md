@@ -1,4 +1,4 @@
-#How To Install Kali Linux as a Portable Live USB for Pen-Testing & Hacking on Any Computer
+# How To Install Kali Linux as a Portable Live USB for Pen-Testing & Hacking on Any Computer
 
 Kali Linux is the go-to Linux distribution for penetration testing and ethical hacking. Still, it's not recommended for day-to-day use, such as responding to emails, playing games, or checking Facebook. That's why it's better to run your Kali Linux system from a bootable USB drive.
 
