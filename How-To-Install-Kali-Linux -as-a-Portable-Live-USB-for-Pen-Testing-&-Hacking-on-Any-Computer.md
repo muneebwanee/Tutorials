@@ -174,4 +174,4 @@ Now all that's left to do is use Kali. You can check out the Cyber Weapons Lab v
 
 ### Thank you all for your attention!
 
-### * This Article is written by : muneebwanee (https://muneb.rf.gd)
+### * This Article was written by : muneebwanee (https://muneb.rf.gd)
