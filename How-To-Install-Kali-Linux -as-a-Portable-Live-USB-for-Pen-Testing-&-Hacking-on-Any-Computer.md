@@ -112,47 +112,47 @@ Choosing one of the persistence options doesn't mean it'll work out of the box. 
 
 To create a partition above the Kali Live partitions, ending at 7 GB, issue the following three commands in a terminal window as the kali user, which will keep the Live options in the 7 GB partition, freeing up the rest for your data storage. Make sure you're doing this from your Kali Live system you just booted into.
 
-* `$ end=7GiB
+* `~$ end=7GiB
 `
-* `$ read start _ < <(du -bcm kali-linux-2021.1-live-arm64.iso | tail -1); echo $start 
+* `~$ read start _ < <(du -bcm kali-linux-2021.1-live-arm64.iso | tail -1); echo $start 
 `
-* `$ parted /dev/sdb mkpart primary ${start}MiB $end
+* `~$ parted /dev/sdb mkpart primary ${start}MiB $end
 `
 
 When that's done, you should now have a third partition labeled something like /dev/sdb3 or /dev/disk1s3. Check your volume identifier because you'll need it for the rest of this process.
 
 If you want to add some encryption in case you think someone might get a hold of your drive, issue the following two commands as kali. Type "YES" in all caps if prompted to proceed with overwriting the new partition. When asked for a passphrase, choose one and enter it twice. You can skip encryption if you don't want it.
 
-* `$ cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb3
+* `~$ cryptsetup --verbose --verify-passphrase luksFormat /dev/sdb3
 `
-* `$ cryptsetup luksOpen /dev/sdb3 my_usb
+* `~$ cryptsetup luksOpen /dev/sdb3 my_usb
 `
 
 Next, run the following two commands as kali to create an ext3 file system labeled "persistence." If you chose to skip encryption, use these:
 
-* `$ mkfs.ext3 -L persistence /dev/sdb3`
-* `$ e2label /dev/sdb3 persistence
+* `~$ mkfs.ext3 -L persistence /dev/sdb3`
+* `~$ e2label /dev/sdb3 persistence
 If you encrypted the partition, use:`
-* `$ mkfs.ext3 -L persistence /dev/mapper/my_usb`
-* `$ e2label /dev/mapper/my_usb persistence`
+* `~$ mkfs.ext3 -L persistence /dev/mapper/my_usb`
+* `~$ e2label /dev/mapper/my_usb persistence`
 
 Next, create a mount point, mount the new partition there, create a configuration file to enable persistence, then unmount the partition. If you didn't encrypt the partition, use:
 
-* `$ mkdir -p /mnt/my_usb`
-* `$ mount /dev/sdb3 /mnt/my_usb`
-* `$ echo "/ union" > /mnt/my_usb/persistence.conf`
-* `$ umount /dev/sdb3`
+* `~$ mkdir -p /mnt/my_usb`
+* `~$ mount /dev/sdb3 /mnt/my_usb`
+* `~$ echo "/ union" > /mnt/my_usb/persistence.conf`
+* `~$ umount /dev/sdb3`
 
 If you encrypted the partition, use:
 
-* `$ mkdir -p /mnt/my_usb/`
-* `$ mount /dev/mapper/my_usb /mnt/my_usb`
-* `$ echo "/ union" > /mnt/my_usb/persistence.conf`
-* `$ umount /dev/mapper/my_usb`
+* `~$ mkdir -p /mnt/my_usb/`
+* `~$ mount /dev/mapper/my_usb /mnt/my_usb`
+* `~$ echo "/ union" > /mnt/my_usb/persistence.conf`
+* `~$ umount /dev/mapper/my_usb`
 
 If you didn't encrypt the partition, you're done. If you did, you have one more command to issue as kali, which will close the encrypted channel for the new partition:
 
-* `$ cryptsetup luksClose /dev/mapper/my_usb`
+* `~$ cryptsetup luksClose /dev/mapper/my_usb`
 
 Now, reboot into Kali Live and choose the appropriate system, and everything should be all set.
 
@@ -163,7 +163,7 @@ Now, reboot into Kali Live and choose the appropriate system, and everything sho
 
 On new versions of Kali, you're a non-root user by default, but you can issue root commands as a regular user by using:
 
-* `$ sudo su`
+* `~$ sudo su`
 If you're asked for a password, use kali. However, Kali Live might not attach a password to the root user, so you'll have to create one if you don't want other people to get in and mess with your system. If it does have one, you can change it to something better. Use passwd root with root privileges to do that. Enter your chosen password, then verify it.
 
 ~# passwd root New password: Retype new password: passwd: password updated successfully
