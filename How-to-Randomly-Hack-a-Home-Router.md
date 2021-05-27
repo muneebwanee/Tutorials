@@ -27,4 +27,4 @@ XXX.XXX.30.0-XXX.XXX.30.255
 
 ### Thank you all for your attention!
 
-### * This Article is written by : muneebwanee (https://muneb.rf.gd)
+### * This Article was written by : muneebwanee (https://muneb.rf.gd)
