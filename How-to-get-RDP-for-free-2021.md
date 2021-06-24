@@ -35,4 +35,4 @@
 
 #### Click on “Connect to your RDP 2core-7GB Ram.” and you will see the required iPAddress, Username and Password.
 
-### ### Use those to log in and Enjoy!
+### Use those to log in and Enjoy!
