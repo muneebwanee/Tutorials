@@ -31,7 +31,7 @@
 
 #### 5.Start Video/Text Chat
 #### 6.on The Console You Should Se The IPs Of The Users U Chat With.
-#### 7.Go To: Tools - Intelligence X {https://intelx.io/}
+#### 7.Go To: Tools - Intelligence X { https://intelx.io/ }
 #### 8.Type His IP And Click Lookup
 #### 9.You Should Get His Latitude &amp; Longitude
 #### 10.Go To: GPS Coordinates Converter - Latitude and Longitude Converter 8
