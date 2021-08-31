@@ -3,6 +3,13 @@
 ### Ducky Script Command Reference
 #### FOR MORE INFO VISIT: https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
 
+#### #Ducky to Arduino
+https://d4n5h.github.io/Duckuino/
+
+#### #Arduino IDE 
+https://www.arduino.cc/en/software
+
+
 ``` GUI r
 DELAY 200
 STRING powershell Start-Process powershell -Verb runAs
