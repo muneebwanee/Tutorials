@@ -1,6 +1,7 @@
 # Hack Windows Using RubberDucky – Keystroke Injection
 
 ### Ducky Script Command Reference
+#### FOR MORE INFO VISIT: https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Payloads
 
 ``` GUI r
 DELAY 200
