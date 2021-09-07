@@ -15,6 +15,7 @@
 
 ## #7. Bypass paypal new method 2021 - https://github.com/muneebwanee/Tutorials/blob/main/Bypass-paypal-new-method-2021.md
 
+## #8. Method to bypass Azure Verification 2021 - https://github.com/muneebwanee/Tutorials/blob/main/Method-to-bypass-Azure-Verification-2021.md
 ---
 ### ❤️Supporters❤️
 [![Stargazers repo roster for @muneebwanee/Tutorials](https://reporoster.com/stars/muneebwanee/Tutorials)](https://github.com/muneebwanee/Tutorials/stargazers)
