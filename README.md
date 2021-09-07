@@ -13,6 +13,8 @@
 
 ## #6. How To Grab Someones Address From OMEGLE - https://github.com/muneebwanee/Tutorials/blob/main/How-To-Grab-Someones-Address-From-OMEGLE.md
 
+## #7. Bypass paypal new method 2021 - https://github.com/muneebwanee/Tutorials/blob/main/Bypass-paypal-new-method-2021.md
+
 ---
 ### ❤️Supporters❤️
 [![Stargazers repo roster for @muneebwanee/Tutorials](https://reporoster.com/stars/muneebwanee/Tutorials)](https://github.com/muneebwanee/Tutorials/stargazers)
