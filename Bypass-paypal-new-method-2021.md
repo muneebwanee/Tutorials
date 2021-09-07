@@ -8,3 +8,7 @@
 
 ### 3- Sign in again with the same account and open 
 #### https://www.paypal.com and you'll be at the homepage
+
+### Thank you all for your attention!
+
+### * This Article was written by : muneebwanee (https://muneb.rf.gd)
