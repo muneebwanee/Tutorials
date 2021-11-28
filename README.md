@@ -16,6 +16,8 @@
 ## #7. Bypass paypal new method 2021 - https://github.com/muneebwanee/Tutorials/blob/main/Bypass-paypal-new-method-2021.md
 
 ## #8. Method to bypass Azure Verification 2021 - https://github.com/muneebwanee/Tutorials/blob/main/Method-to-bypass-Azure-Verification-2021.md
+
+## #9. How to kill Windows using a USB stick - https://github.com/muneebwanee/Tutorials/blob/main/How-to-kill-Windows-using-a-USB-stick.md
 ---
 ### ❤️Supporters❤️
 [![Stargazers repo roster for @muneebwanee/Tutorials](https://reporoster.com/stars/muneebwanee/Tutorials)](https://github.com/muneebwanee/Tutorials/stargazers)
